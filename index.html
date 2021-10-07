@@ -5,22 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+        .header{
+            background-color: cadetblue;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-around; */
+            
+        }
+        
+        .nav{
+            border: 4px dashed brown;
+            margin: 30px;
+            padding: 20px;
+            background-color: lawngreen;
+            
+        }
+        
+        .head_info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            margin-top: 400px;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
         <nav class="nav">
-            <ul>
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">About</a></li>
-                <li><a href="#!">Contact</a></li>
-                <li><a href="#!">Design</a></li>
+            <ul style="display: flex; justify-content: space-around;">
+                <li><a href="#!" style="color: blue; font-size: 24px;">Home</a></li>
+                <li><a href="#!" style="color: red; font-size: 24px;">About</a></li>
+                <li><a href="#!" style="color: green; font-size: 24px;">Contact</a></li>
+                <li><a href="#!" style="color: yellow; font-size: 24px;">Design</a></li>
             </ul>
         </nav>
         <div class="head_info">
-            <h1 class="about_title">
+            <h1 class="about_title" style="font-size: 45px; color: chocolate;">
                 Hello world
             </h1>
-            <p class="about_p">
+            <p class="about_p" style="color: cyan; font-size: 18px; ">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus qui, fugit temporibus consequuntur ad tempora quo delectus voluptatibus expedita molestiae nobis, eius quia dolore eligendi velit iure. Temporibus, deserunt quam?
             </p>
         </div>
